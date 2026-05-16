@@ -1,0 +1,40 @@
+# --- secrets ---
+.env
+.env.*
+!.env.example
+
+# --- python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# --- node / next / vite ---
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+.cache/
+
+# --- supabase ---
+supabase/.branches
+supabase/.temp
+
+# --- editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- logs / misc ---
+*.log
+.coverage
+coverage/
